@@ -1,4 +1,5 @@
 .conteiner {
+    width: 1920px;
     display: flex;
 }
 
@@ -6,20 +7,15 @@
     width: 20%;
     background-color: black;
     color: white;
-    height: 500px;
+    height: 900px;
     justify-content: space-between;
 
 }
 
-span {
-    font-size: 20px;
-    margin-top: 5px;
-    font-weight: 20px;
-}
 
 .outside_h1 {
     display: flex;
-    margin-left: 60px;
+    margin-left: 20px;
     font-weight: bold;
     font-size: 24px;
 }
@@ -27,33 +23,24 @@ span {
 .outside_head {
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
+    margin-right: 40PX;
 }
 
-.outside_line {
-    margin-right: 15px;
+span {
+  font-size: 20px;
     margin-top: 5px;
-}
+    font-weight: 20px; 
+} 
 
 .outside_medll {
-margin-top: 40px;
-    width: 100%;
-    display: flex;
-   flex-direction: column;
-    
+    margin: 40px 40px 40px 40px;
+    flex-direction: column;
+    display: block;
 }
 
 .outside_imgp {
-  
-    max-width: 400px;
-        width: 100%;
-        min-width: 300px;
-        padding: 10px;
-}
-.outside_img{display: flex;
-justify-content: space-between;
-}
-.outside_p{display: flex;
-    justify-content: space-between;
+    padding: 15px;
 }
 
 .search {
@@ -71,4 +58,7 @@ justify-content: space-between;
 
 .search_img {
     position: absolute;
+}
+header{
+    width: 50%;
 }

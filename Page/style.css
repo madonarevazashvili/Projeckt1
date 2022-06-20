@@ -112,6 +112,11 @@ span {
 
 .animstion {
     position: absolute;
+    background: linear-gradient(45deg, #f6f6f7, #ff72e5);
+    animation-name: Change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .outside_medll {
@@ -276,31 +281,87 @@ footer {
     margin-left: 70px;
     padding: 70px 0px;
 }
-.footer_second div{
- 
- margin-left: 10px;
- 
+
+.footer_second div {
+
+    margin-left: 10px;
+
 }
-.search_midll{
-   position: relative;
+
+.search_midll {
+    position: relative;
 }
-.m{
+
+.m {
     position: absolute;
     right: 13px;
     padding: 5px 0px;
 }
+
 .table,
 th,
-td{
-border: none;
-padding: 20px 0px;
+td {
+    border: none;
+    padding: 20px 0px;
 
 }
-.inside_table{
+
+.inside_table {
     margin-left: 70px;
-margin-right: 100px;
+    margin-right: 100px;
 
 }
-td{
-border-bottom: 10px;
+
+td {
+    border-bottom: 10px;
+}
+
+
+
+@keyframes Change {
+    from {
+        transform: #f6f6f7,
+            (1);
+    }
+
+    to {
+        transform: #ff72e5(3);
+    }
+}
+
+@media (max-width:480px) {
+    .outside {
+        width: 12%;
+        height: 300px;
+    }
+
+    .outside_Endd {
+        display: none;
+
+    }
+
+    .outside_head {
+        display: none;
+
+    }
+
+    td {
+        border: outset;
+    }
+
+    .footer_box {
+        padding: 50px;
+    }
+
+    .footer_second {
+        top: 50px 100px;
+    }
+
+    .search_imgs {
+        display: none;
+    }
+
+    .m {
+        display: none;
+    }
 }

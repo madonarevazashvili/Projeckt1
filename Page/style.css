@@ -41,40 +41,12 @@ h5 {
     margin-right: 100px;
 }
 
-.section_First {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 15px;
-}
-
-.section_second {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 15px;
-}
-
 .header1 {
     color: black;
 
 }
 
-nav ul {
-    display: flex;
-    align-content: space-between;
-    text-align: center;
-    margin-left: 100px;
-    padding: 30px 0px;
 
-}
-
-li {
-    margin-left: 20px;
-
-}
 
 .header1_button {
     width: 100px;
@@ -213,7 +185,7 @@ span {
     margin-left: 40px;
     background-color: #ff2288;
     color: white;
-    border: 10px;
+    border-radius: 10px;
 }
 
 .search_rightl {
@@ -308,4 +280,27 @@ footer {
  
  margin-left: 10px;
  
+}
+.search_midll{
+   position: relative;
+}
+.m{
+    position: absolute;
+    right: 13px;
+    padding: 5px 0px;
+}
+.table,
+th,
+td{
+border: none;
+padding: 20px 0px;
+
+}
+.inside_table{
+    margin-left: 70px;
+margin-right: 100px;
+
+}
+td{
+border-bottom: 10px;
 }
